@@ -1,0 +1,77 @@
+
+      <!-- Product:Start -->
+
+<section class="box">
+      <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+   
+  <div class="content">
+    <div class="left">
+      <div class="product_img">
+         <model-viewer
+                    class="modelViewr"
+                    src="{{car.file}}"
+                            alt="dragon"
+                            auto-rotate
+                            camera-controls></model-viewer>
+      </div>
+      <div class="product_details">
+        <h4 class="title">{{car.name}}</h4>
+        <p class="discription"></p>
+        <p class="price">{{car.prise}} <span class="price_original">$</span> <span class="offer"> {{car.data}}</span>year</p>
+        <p class="other">{{car.ln}}</p>
+
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="product_description">
+        <h4>PRODUCT DESCRIPTION</h4>
+        <p>        </p>
+        <p><span class="highlight">Країна виробник -</span>
+         {{car.ln}}
+        </p>
+        <p><span class="highlight">Тип кузова -</span>
+         <span class="special">{{car.type}}</span>
+        </p>
+        <p><span class="highlight">Тип палива -</span>
+         <span class="special">{{car.fuel}}</span>
+        </p>
+        <p><span class="highlight">Л.С -</span>
+        <span class="special">{{car.POWER}}</span> 
+        </p>
+        <p><span class="highlight">Тип мотору -</span> 
+        <span class="special">{{car.Type_Engine}}</span>
+        </p>
+        <p><span class="highlight">Об'єм -</span>
+        <span class="special">{{car.ENGINE_VOLUME}}</span> 
+        </p>
+        <p><span class="highlight">Вага -</span>
+        <span class="special">{{car.Weight}}</span> 
+        </p>
+        <p><span class="highlight">КП -</span>
+        <span class="special">{{car.kpp}}</span> 
+        </p>
+      </div>
+    </div>
+
+
+
+  </div>
+  {{!-- <img class="buy" src="../src/fa--shopping-basket.png" width="50px" height="50px" > --}}
+  <div class="wrap">
+    <button class="button buy" onclick="Buy({{id_car}})">Купити</button>
+  </div>
+ 
+</section>

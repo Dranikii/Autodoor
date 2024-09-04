@@ -1,0 +1,41 @@
+[
+    {
+        "model":"Nissan",
+        "id": 0,
+        "name": "Nissan Skyline GT-R32",
+        "middle name":"Nissan Skyline",
+        "author": "Nissan",
+        "ln": "Japan",
+        "type": "sport-car",
+        "file": "../src/1993_nissan_skyline_gt-r_r32.glb",
+        "cover": "../src/nissa_old.jpeg",
+        "data": "1993",
+        "prise":75000,
+        "POWER":"420 HP",
+        "fuel":"gasoline",
+        "Type_Engine":"I6",
+        "ENGINE_VOLUME":"2,3L",
+        "Weight":"1300 KG",
+        "kpp":"mechanics"
+    },
+    {
+        "model":"Nissan",
+        "id": 1,
+        "name": "Nissan Skyline GT-R35",
+        "middle name":"Nissan Skyline",
+        "author": "Nissan",
+        "ln": "Japan",
+        "type": "sport-car",
+        "file": "../src/nissan_skyline_gtr_r35.glb",
+        "cover": "../src/nissa_new.jpg",
+        "data": "2008",
+        "prise":260000,
+        "POWER":"610 HP",
+        "fuel":"gasoline",
+        "Type_Engine":"V6",
+        "ENGINE_VOLUME":"3,8L",
+        "Weight":"1742 KG",
+        "kpp":"automatic"
+    }
+
+]

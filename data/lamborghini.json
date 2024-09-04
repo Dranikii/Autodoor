@@ -1,0 +1,41 @@
+[
+    {
+        "model":"Lamborghini",
+        "id": 0,
+        "name": "Lamborghini Gallardo lp560",
+        "middle name":"Lamborghini",
+        "author": "Lamborghini",
+        "ln": "Italy",
+        "type": "sport-car",
+        "file": "../src/lamborghini_gallardo_lp560.glb",
+        "cover": "../src/Lamborghini_Gallardo.jpg",
+        "data": "2008",
+        "prise":176000,
+        "POWER":"560 HP",
+        "fuel":"gasoline",
+        "Type_Engine":"V10",
+        "ENGINE_VOLUME":"5,2L",
+        "Weight":"1400 KG",
+        "kpp":"automatic"
+    },
+    {
+        "model":"Honda",
+        "id": 1,
+        "name": "Lamborghini Huracan Turbo",
+        "middle name":"Lamborghini",
+        "author": "Lamborghini",
+        "ln": "Italy",
+        "type": "sport-car",
+        "file": "../src/lamborghini_huracan_twin_turbo_lost.glb",
+        "cover": "../src/Lamborghini_Huracan.jpg",
+        "data": "2014",
+        "prise":260000,
+        "POWER":"610 HP",
+        "fuel":"gasoline",
+        "Type_Engine":"V10",
+        "ENGINE_VOLUME":"5,2L",
+        "Weight":"1442 KG",
+        "kpp":"automatic"
+    }
+
+]

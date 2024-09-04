@@ -1,0 +1,29 @@
+
+{{#each this.prs}}  
+<tr>
+                  <td><img src="{{pr.cover}}" ></td>
+                 <td>{{pr.name}}</td>
+                  <td>{{pr.prise}}</td>
+                 
+                  <td>
+                     <a class="cart_minus" onclick="Min({{pr.id}},'{{pr.model}}')">-</a> 
+                     <input class="cart_num" type="text" value="{{count}}" size="3" maxlength="6"> 
+                     <a class="cart_plus" onclick="Plus({{pr.id}},'{{pr.model}}')">+</a>
+                  </td>
+                  <td>{{total}}</td>
+                 <td class="delete_item" onclick="Delete({{pr.id}},'{{pr.model}}')">x</td>
+               </tr>
+{{/each}}
+        <tr>
+                 
+                  <td class="cart_summ" colspan="5">Всього:{{this.total}}</td>
+               </tr>
+               <tr>
+                  <td class="cart_delivery" colspan="6"></td>
+               </tr>
+               <tr>
+                  <td class="cart_coupon_all" colspan="6"></td>
+               </tr>
+               <tr>
+                  <td class="cart_summ_all" colspan="6"></td>
+        </tr>

@@ -1,0 +1,41 @@
+[
+    {
+        "model":"Toyota",
+        "id": 0,
+        "name": "Toyota Fortuner",
+        "middle name":"Toyota Fortuner",
+        "author": "Toyota",
+        "ln": "Japan",
+        "type": "SUV",
+        "file": "../src/2015_toyota_fortuner.glb",
+        "cover": "../src/Toyota_Fortuner.jpg",
+        "data": "2015",
+        "prise":17000,
+        "POWER":"166 HP",
+        "fuel":"disel",
+        "Type_Engine":"I4",
+        "ENGINE_VOLUME":"2,7L",
+        "Weight":"2200 KG",
+        "kpp":"mechanics"
+    },
+    {
+        "model":"Toyota",
+        "id": 0,
+        "name": "Toyota 4Runner V8",
+        "middle name":"Toyota 4Runer",
+        "author": "Toyota",
+        "ln": "Japan",
+        "type": "SUV",
+        "file": "../src/toyota_4runner_v8.glb",
+        "cover": "../src/Toyota_4Runner_V8.webp",
+        "data": "2015",
+        "prise":40000,
+        "POWER":"270 HP",
+        "fuel":"disel",
+        "Type_Engine":"V8",
+        "ENGINE_VOLUME":"4,7L",
+        "Weight":"2000 KG",
+        "kpp":"mechanics"
+    }
+
+]
